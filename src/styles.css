@@ -1,0 +1,25 @@
+:root { font-family: system-ui, sans-serif; color: #111; background: #fff; line-height: 1.5; }
+body { margin: 0; }
+main { max-width: 980px; margin: 24px auto; padding: 0 20px 40px; }
+h1 { font-size: 1.4rem; text-transform: uppercase; } h2 { font-size: 1.25rem; } h3, h4 { margin-bottom: 8px; }
+button, input, select, textarea { font: inherit; } button { padding: 5px 10px; cursor: pointer; } button:disabled { cursor: default; }
+:focus-visible { outline: 3px solid #245a99; outline-offset: 2px; }
+label { display: block; margin: 10px 0; } label > input:not([type=checkbox]), label > select, label > textarea { display: block; }
+textarea { box-sizing: border-box; width: 100%; } input[type=checkbox] { margin-right: 8px; }
+.scoreboard { display: flex; justify-content: space-between; border-bottom: 1px solid #888; padding-bottom: 16px; position: sticky; top: 0; background: white; z-index: 1; }
+.scoreboard section { min-width: 100px; } .scoreboard section:last-child { text-align: right; } .scoreboard strong { font-size: 2.4rem; }
+.team-inputs { display: flex; gap: 24px; flex-wrap: wrap; }
+.question, .choices { font-size: 1.3rem; } .question, .answer div, dd { white-space: pre-wrap; overflow-wrap: anywhere; }
+.choices div { display: flex; gap: 12px; margin: 6px 0; } dd { margin: 0; } dt { flex: 0 0 28px; }
+.answer { border-top: 1px solid #999; margin-top: 22px; padding-top: 4px; } .answer h3 { font-size: 0.9rem; text-transform: uppercase; }
+.timer { font-size: 1.6rem; font-variant-numeric: tabular-nums; margin: 20px 0; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.muted, footer { color: #555; font-size: 0.9rem; } footer { border-top: 1px solid #aaa; margin-top: 28px; padding-top: 12px; }
+details { border: 1px solid #bbb; padding: 10px; margin: 10px 0; } summary { cursor: pointer; }
+.preview-question + .preview-question { border-top: 2px solid #aaa; margin-top: 20px; } .preview-question .question, .preview-question .choices { font-size: 1rem; }
+.warning { border-left: 4px solid #8a4c00; background: #fff5df; padding: 8px 12px; } .resolved { color: #555; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 0.85rem; } .start { margin: 18px 0; font-weight: bold; }
+.source { position: fixed; inset: 20px; overflow: auto; background: white; border: 2px solid #333; padding: 20px; z-index: 5; }
+.source canvas { display: block; max-width: 100%; height: auto; margin: 12px auto; border: 1px solid #aaa; }
+.printed-question canvas { display: block; max-width: 100%; height: auto; margin: 10px 0; }
+@media (max-width: 600px) { main { padding: 0 12px; } .question, .choices { font-size: 1.1rem; } .source { inset: 5px; padding: 10px; } }
