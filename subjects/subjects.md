@@ -16,4 +16,4 @@ These are the individual category labels detected in the 251 Science Bowl PDFs. 
 | Earth Science | 459 | 47 | Legacy earth-science label. |
 | Energy | 1,214 | 203 | Dedicated energy material and energy-category rounds. |
 
-For the fuller breakdown and visual comparison, see [`analytics/README.md`](analytics/README.md). For the exact PDFs associated with each label, see [`analytics/pdf_inventory.md`](analytics/pdf_inventory.md).
+For the exact PDFs associated with each label, see [`analytics/pdf_inventory.md`](../analytics/pdf_inventory.md).

@@ -1,12 +1,32 @@
-# Science Bowl past exams
+# Middle School Science Bowl
 
-This repository is a study archive of DOE National Science Bowl question PDFs and a compact analysis of their topic coverage.
+This is the working repository for our middle-school Science Bowl team. It preserves a searchable archive of DOE practice material and provides a shared foundation for subject preparation.
 
-## Contents
+The current emphasis is **mathematics**: as the mathematics chair, this is where I will curate math-focused practice, references, and analysis. The complete archive remains useful for interdisciplinary rounds and team-wide preparation.
 
-- [`past exams/`](past%20exams/) - 251 downloaded question PDFs, a source manifest, and collection notes.
-- [`analytics/`](analytics/) - collection totals, a topic-distribution chart, and a per-PDF inventory.
-- [`subjects.md`](subjects.md) - the individual subject labels represented in the collection.
+## Repository architecture
+
+```text
+scibowl/
+├── README.md                 # Team purpose, navigation, and conventions
+├── subjects/
+│   └── subjects.md           # Subject labels and math-focused coverage context
+├── past exams/
+│   ├── *.pdf                 # 251 DOE middle-school question packets
+│   └── MANIFEST.csv          # Local filename-to-source-URL map
+└── analytics/
+    └── pdf_inventory.md      # Pages, question markers, and labels per PDF
+```
+
+## Start here
+
+- [`subjects/subjects.md`](subjects/subjects.md) - all detected subject labels, including Math and Mathematics.
+- [`past exams/`](past%20exams/) - the full DOE question-packet archive.
+- [`analytics/pdf_inventory.md`](analytics/pdf_inventory.md) - find packets by their detected topic labels.
+
+## Mathematics focus
+
+Use the archive and inventory to locate packets labeled **Math** or **Mathematics**. Future mathematics-chair material should live in a clearly named math-focused location under `subjects/` so team members can find it without mixing it with the source archive.
 
 ## Naming
 
