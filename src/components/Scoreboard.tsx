@@ -1,4 +1,0 @@
-import type { TeamId } from '../types';
-export function Scoreboard({ names, scores, disabled, onAdjust, allowNegative }: { names: Record<TeamId, string>; scores: Record<TeamId, number>; disabled: boolean; allowNegative?: boolean; onAdjust: (team: TeamId, delta: number) => void }) {
-  return <header className="scoreboard">{(allowNegative ? ['A'] as const : ['A', 'B'] as const).map(team => <section key={team}><h2>{names[team]}</h2><strong data-testid={`score-${team}`}>{scores[team]}</strong><div><button aria-label={`Subtract one from ${names[team]}`} disabled={disabled || !allowNegative && scores[team] === 0} onClick={() => onAdjust(team, -1)}>−</button> <button aria-label={`Add one to ${names[team]}`} disabled={disabled} onClick={() => onAdjust(team, 1)}>+</button></div></section>)}</header>;
-}
