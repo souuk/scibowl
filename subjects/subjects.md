@@ -17,3 +17,5 @@ These are the individual category labels detected in the 251 Science Bowl PDFs. 
 | Energy | 1,214 | 203 | Dedicated energy material and energy-category rounds. |
 
 For the exact PDFs associated with each label, see [`analytics/pdf_inventory.md`](../analytics/pdf_inventory.md).
+
+Mathematics-chair materials are organized in [`mathematics/`](mathematics/).

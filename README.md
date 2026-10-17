@@ -10,7 +10,8 @@ The current emphasis is **mathematics**: as the mathematics chair, this is where
 scibowl/
 ├── README.md                 # Team purpose, navigation, and conventions
 ├── subjects/
-│   └── subjects.md           # Subject labels and math-focused coverage context
+│   ├── subjects.md           # Subject labels and math-focused coverage context
+│   └── mathematics/          # Math-chair materials, organized by use
 ├── past exams/
 │   ├── *.pdf                 # 251 DOE middle-school question packets
 │   └── MANIFEST.csv          # Local filename-to-source-URL map
@@ -21,6 +22,7 @@ scibowl/
 ## Start here
 
 - [`subjects/subjects.md`](subjects/subjects.md) - all detected subject labels, including Math and Mathematics.
+- [`subjects/mathematics/`](subjects/mathematics/) - mathematics-chair materials and practice resources.
 - [`past exams/`](past%20exams/) - the full DOE question-packet archive.
 - [`analytics/pdf_inventory.md`](analytics/pdf_inventory.md) - find packets by their detected topic labels.
 
