@@ -2,6 +2,16 @@
 
 This is the working topic map for our middle-school Science Bowl mathematics preparation. It consolidates the concepts found in the DOE past-exam archive's Math and Mathematics question categories.
 
+## Lecture-note standard
+
+Each lecture note should cover both **what the topic is** and **how to solve its questions quickly**. Include:
+
+- Core definitions, formulas, and a short worked example
+- Fast methods or useful shortcuts appropriate for timed Science Bowl play
+- Recognition cues: what wording or structure signals the technique to use
+- Common traps, including tempting but incorrect shortcuts
+- A few increasingly difficult practice problems with concise solutions
+
 ## Arithmetic and number sense
 
 - Whole-number operations and signed numbers
