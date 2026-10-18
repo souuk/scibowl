@@ -23,6 +23,7 @@ scibowl/
 
 - [`subjects/subjects.md`](subjects/subjects.md) - all detected subject labels, including Math and Mathematics.
 - [`subjects/mathematics/`](subjects/mathematics/) - mathematics-chair materials and practice resources.
+- [`subjects/mathematics/topics.md`](subjects/mathematics/topics.md) - the mathematics topic map derived from past exams.
 - [`past exams/`](past%20exams/) - the full DOE question-packet archive.
 - [`analytics/pdf_inventory.md`](analytics/pdf_inventory.md) - find packets by their detected topic labels.
 
